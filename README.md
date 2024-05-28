@@ -1,2 +1,2 @@
 # AiChatbot
-This repo for tublian intership
+This repo for tublian internship
