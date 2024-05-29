@@ -1,0 +1,1 @@
+export GROQ_API_KEY='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'
