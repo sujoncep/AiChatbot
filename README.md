@@ -1,23 +1,44 @@
-# Groq LangChain Conversational Chatbot
+AI Tutor Chat Application
 
-This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the LangChain API. The application uses the Groq API to generate responses and maintains a history of the conversation to provide context for the chatbot's responses.
+Welcome to the AI Tutor Chat Application! This is a Streamlit-based chat application powered by the Groq API, allowing users to chat with an AI tutor.
+Features
 
-## Features
+    Chat with an AI tutor in real-time.
+    Ask questions and get instant responses.
+    Customize the system prompt and choose the AI model.
+    Maintain conversational memory with up to 10 previous interactions.
 
-- **Conversational Interface**: The application provides a conversational interface where users can ask questions or make statements, and the chatbot responds accordingly.
+Usage
 
-- **Contextual Responses**: The application maintains a history of the conversation, which is used to provide context for the chatbot's responses.
+    Clone the repository to your local machine:
 
-- **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
+    bash
 
-## Usage
+git clone https://github.com/your_username/ai-tutor-chat-app.git
 
-To use this application, you need to have Streamlit and the other required Python libraries installed. You also need to have a Groq API key, which you can obtain by signing up on the Groq website.
+Install the required dependencies:
 
-Once you have the necessary requirements, you can run the application by executing the script with Streamlit:
+bash
 
-```shell
-streamlit run app.py
-```
+pip install -r requirements.txt
 
-This will start the Streamlit server and open the application in your web browser. You can then interact with the chatbot, and the application will generate responses based on the history of the conversation.
+Set up your environment variables:
+
+    Obtain a Groq API key and set it as an environment variable named GROQ_API_KEY.
+
+Run the application:
+
+bash
+
+    streamlit run app.py
+
+    Access the application in your web browser at http://localhost:8501.
+
+Customization
+
+    Modify the system prompt and choose the AI model in the Streamlit interface.
+    Customize the colors and styling in the app.py file according to your preferences.
+
+Contributing
+
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
