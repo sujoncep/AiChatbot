@@ -14,7 +14,7 @@ Usage
 
     bash
 
-git clone https://github.com/your_username/ai-tutor-chat-app.git
+git clone (https://github.com/sujoncep/AiTutor.git)
 
 Install the required dependencies:
 
